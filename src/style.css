@@ -5,7 +5,7 @@
 
 body {
   background-color: #81a69b;
-  background-image: url(http://pets-images.dev-apis.com/pets/wallpaperB.jpg);
+  background-image: url(https://pets-images.dev-apis.com/pets/wallpaperB.jpg);
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -87,10 +87,10 @@ body {
   text-overflow: ellipsis;
 }
 
-header > a,
-#root > div > h1 {
+header>a,
+#root>div>h1 {
   display: inline-block;
-  background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png);
+  background-image: url(https://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png);
   filter: brightness(150%);
   width: 279px;
   height: 76px;
@@ -150,7 +150,7 @@ header {
   margin-top: 8px;
 }
 
-.carousel > img {
+.carousel>img {
   max-width: 45%;
   max-height: 400px;
 }
@@ -159,7 +159,7 @@ header {
   width: 50%;
 }
 
-.carousel-smaller > img {
+.carousel-smaller>img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -169,7 +169,7 @@ header {
   border: 2px solid #333;
 }
 
-.carousel-smaller > img.active {
+.carousel-smaller>img.active {
   border-color: #333;
   opacity: 0.6;
 }
@@ -237,7 +237,7 @@ header {
   display: none;
 }
 
-#modal > div {
+#modal>div {
   background-color: white;
   max-width: 500px;
   padding: 15px;
@@ -328,7 +328,8 @@ header {
     margin: 0 auto;
     float: none;
   }
-  .carousel-smaller > img {
+
+  .carousel-smaller>img {
     width: 60px;
     height: 60px;
   }
