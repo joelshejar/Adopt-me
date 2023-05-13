@@ -6,7 +6,7 @@ import ErrorBoundary from "./ErrorBoundary";
 import fetchPet from "./fetchPet";
 import Carousel from "./Carousel";
 import Modal from "./Modal";
-import adoptedPetContext from "./adoptedPetContext";
+import adoptedPetContext from "./AdoptedPetContext";
 
 const Details = (props) => {
   const [showModal, setShowModal] = useState(false)
