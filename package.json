@@ -6,9 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build:client": "vite build --outDir ../dist/client",
-    "build:server": "vite build --outDir ../dist/server --ssr ServerApp.jsx",
-    "build": "npm run build:client && npm run build:server",
+    "build": "vite build",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
